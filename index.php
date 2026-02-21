@@ -1,20 +1,16 @@
 <?php
-
-$servername = "s6860506004db-kuchalina-ycaivu"; // แก้ไขตัว c ตรงนี้แล้วครับ
+$servername = "s6860506004db-kuchalina-ycaivu";
 $username = "Nina6860506004";
 $password = "1859900347014";
 $dbname = "Nina";
 
-// ใช้ตัว @ นำหน้า new mysqli เพื่อป้องกันไม่ให้ error ดิบๆ แสดงจนเว็บพัง
 $conn = @new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
-    // ให้มันแสดงข้อความเตือน แทนที่จะทำให้หน้าเว็บพัง
-    echo "<div style='background: #fee2e2; padding: 10px; color: #dc2626; text-align: center;'>เชื่อมต่อฐานข้อมูลล้มเหลว: โปรดเช็กรหัสผ่านหรือชื่อฐานข้อมูล</div>";
+echo "<div style='background: #fee2e2; padding: 10px; color: #dc2626; text-align: center;'>เชื่อมต่อฐานข้อมูลล้มเหลว</div>";
 } else {
-    echo "<div style='background: white; padding: 10px; color: green; text-align: center;'>เชื่อมต่อฐานข้อมูล MariaDB สำเร็จ!</div>";
+echo "<div style='background: white; padding: 10px; color: green; text-align: center;'>เชื่อมต่อฐานข้อมูล MariaDB สำเร็จ!</div>";
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -407,6 +403,7 @@ if ($conn->connect_error) {
 </body>
 
 </html>
+
 
 
 
