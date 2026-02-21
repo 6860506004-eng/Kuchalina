@@ -1,6 +1,6 @@
 <?php
 
-$servername = "s6860506004db-kushalina-ycaivu";
+$servername = "s6860506004db-kuchalina-ycaivu";
 $username = "Nina6860506004";
 $password = "1859900347014";
 $dbname = "Nina";
@@ -404,6 +404,7 @@ echo "<div style='background: white; padding: 10px; color: green; text-align: ce
 </body>
 
 </html>
+
 
 
 
