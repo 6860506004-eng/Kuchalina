@@ -1,5 +1,5 @@
 <?php
-/*
+
 $servername = "s6860506004db-kushalina-ycaivu";
 $username = "Nina6860506004";
 $password = "1859900347014";
@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("เชื่อมต่อฐานข้อมูลล้มเหลว: " . $conn->connect_error);
 }
 echo "<div style='background: white; padding: 10px; color: green; text-align: center;'>เชื่อมต่อฐานข้อมูล MariaDB สำเร็จ!</div>";
-*/
+
 ?>
 
 <!DOCTYPE html>
@@ -404,4 +404,5 @@ echo "<div style='background: white; padding: 10px; color: green; text-align: ce
 </body>
 
 </html>
+
 
