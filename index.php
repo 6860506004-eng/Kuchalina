@@ -1,5 +1,5 @@
 <?php
-/*
+
 $servername = "s6860506004db-kuchalina-ycaivu";
 $username = "Nina6860506004";
 $password = "1859900347014";
@@ -12,7 +12,7 @@ echo "<div style='background: #fee2e2; padding: 10px; color: #dc2626; text-align
 } else {
 echo "<div style='background: white; padding: 10px; color: green; text-align: center;'>เชื่อมต่อฐานข้อมูล MariaDB สำเร็จ!</div>";
 }
-*/
+
 ?>
 
 <!DOCTYPE html>
@@ -405,6 +405,7 @@ echo "<div style='background: white; padding: 10px; color: green; text-align: ce
 </body>
 
 </html>
+
 
 
 
